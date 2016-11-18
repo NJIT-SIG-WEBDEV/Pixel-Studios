@@ -1,0 +1,51 @@
+//----- Extends
+%clearfix:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+//----- Grid System
+
+
+$grid-spacing:3%; //Dont know if ill use this yet
+
+.container{
+  max-width: 960px;
+  margin-bottom: 60px;
+  margin: auto;
+}
+
+.row {
+    @extend %clearfix;
+
+    & + & {
+        margin-top:$grid-spacing;
+    }
+}
+
+//-------For all elements with a class attribute that starts with col-
+[class^="col-"] {
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    &:last-child {
+        margin-right:0%;
+    }
+}
+
+//----- Columns (Automatic)
+.col-1   { width:(100% / 12) }
+.col-2   { width:(100% / 6)  }
+.col-3   { width:(100% / 4) }
+.col-4   { width:(100% / 3) }
+.col-5   { width:(100% / 2.4) }
+.col-6   { width:(100% / 2) }
+.col-7   { width:(100% / 1.714285714285714) }
+.col-8   { width:(100% / 1.5) }
+.col-9   { width:(100% / 1.333333333333333) }
+.col-10  { width:(100% / 1.2) }
+.col-11  { width:(100% / 1.090909090909091) }
+.col-12  { width:100%; }
