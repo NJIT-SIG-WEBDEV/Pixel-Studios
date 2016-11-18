@@ -21,4 +21,4 @@ Please pick a page and create a branch for it. After you worked on it and want m
 
 ###### Fonts
 - [Helvetica CE](http://ttfonts.net/font/20936_HelveticaCE.htm)
-- [Faceyourmanga](www.faceyourmanga.com)
+- [Montserrat](https://fonts.google.com/specimen/Montserrat)
