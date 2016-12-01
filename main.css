@@ -5,7 +5,6 @@
 
 .container {
   max-width: 1148px;
-  margin-bottom: 60px;
   margin: auto; }
 
 .row + .row {
@@ -60,32 +59,32 @@
   font-family: helvetica;
   src: url(HelveticaCE.otf); }
 html {
-  background: #f7f5f7;
+  background: #f6f6f6;
   font-family: helvetica;
-  letter-spacing: -.6px; }
+  letter-spacing: -.6px;
+  font-size: 12px; }
 
-nav {
+header nav {
   text-align: center; }
-  nav ul {
-    color: #f7f5f7;
+  header nav ul {
+    color: #f6f6f6;
     margin: 0;
     padding: 0;
     list-style: none; }
-  nav li {
+  header nav li {
     display: inline-block; }
-  nav a {
+  header nav a {
     font-size: 17px;
     color: #b6b6b6;
     display: inline-block;
     padding: 34px 17px;
     text-decoration: none;
     text-transform: uppercase; }
-  nav .active {
+  header nav .active {
     color: black;
     font-weight: bold;
     border-bottom: 1px solid black; }
-
-button {
+header button {
   background: #06a2ec;
   margin-top: 22px;
   padding: 11px 14px;
@@ -95,12 +94,10 @@ button {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px; }
-
-img {
+header img {
   width: 88%;
   margin-top: 4px; }
-
-hr {
+header hr {
   display: block;
   height: 1px;
   border: 0;
@@ -108,7 +105,32 @@ hr {
   margin: 0;
   padding: 0; }
 
-h1 {
+footer .about {
+  line-height: 33px; }
+  footer .about p {
+    padding-right: 30px; }
+  footer .about button {
+    font-size: 7px;
+    padding: 6px 9px;
+    float: right;
+    margin-right: 5px; }
+footer p {
+  margin: 0; }
+footer .copyright {
+  padding: 10px 0px; }
+  footer .copyright span {
+    color: #51b5e5; }
+footer .links ul {
+  line-height: 18px;
+  padding-left: 13px;
+  margin: 0; }
+footer .contact ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  line-height: 18px; }
+footer .contact span {
   font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
