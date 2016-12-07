@@ -11,7 +11,7 @@
 
 $grid-spacing:3%; //Dont know if ill use this yet
 
-.row {
+.alirow {
     @extend %clearfix;
 
     & + & {

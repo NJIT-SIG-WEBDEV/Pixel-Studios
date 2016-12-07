@@ -1,9 +1,9 @@
-.row:after {
+.alirow:after {
   display: block;
   clear: both;
   content: ''; }
 
-.row + .row {
+.alirow + .alirow {
   margin-top: 3%; }
 
 [class^="col-"] {
