@@ -9,13 +9,7 @@
 
 //----- Grid System
 
-
 $grid-spacing:3%; //Dont know if ill use this yet
-
-.container{
-  max-width: 1148px;
-  margin: auto;
-}
 
 .row {
     @extend %clearfix;

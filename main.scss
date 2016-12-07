@@ -73,6 +73,7 @@ header{
 
 
 footer{
+  clear: both;
   .about{
     line-height: 33px;
     p{
@@ -82,7 +83,7 @@ footer{
       font-size: 7px;
       padding:  6px 9px;
       float: right;
-      margin-right: 5px;
+      margin-right: 70px;
     }
   }
 
@@ -110,6 +111,29 @@ footer{
 
     span{
       font-weight: bold;
+    }
+    .fa{
+      margin: 5px;
+      &:hover{
+        background: $ps-blue-text;
+        padding:5px;
+      }
+    }
+  }
+  .latest{
+    ul{
+      line-height: 25px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      h3{
+        margin:0;
+      }
+    }
+    li{
+      margin-left: 5px;
+      float: left;
     }
   }
 }
