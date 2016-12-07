@@ -1,0 +1,14 @@
+@import "colors";
+
+@font-face {
+    font-family: helvetica;
+    src: url(HelveticaCE.otf);
+}
+
+html {
+  background: $bg-color;
+  font-family: helvetica;
+  letter-spacing: -.6px;
+  font-size:12px;
+}
+
